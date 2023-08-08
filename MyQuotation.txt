@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convert Power Apps to PDF</title>
+<style>
+@page
+    {
+    size: A4 Potrait;
+    margin: 0;
+    }
+
+@media print{
+    @page{
+        size: A4 Potrait;
+        margin: 0;
+    }
+}
+
+@media print{
+    .class-name{
+        @page{
+            size: A4 Potrait;
+            margin: 0;
+        }
+    }
+}
+
+header {
+    top : 25px;
+    position: fixed;
+    background-color: #FFFFFF;
+    buttom: 0;
+    }
+
+body {
+    top: 0px;
+    padding: 50px;
+    }
+
+footer {
+    background-color: #FFFFFF;
+    clear: both;
+    position: fixed;
+    height: 50px;
+    margin-top: -10px;
+    buttom: 0;
+    }
+
+/* tabel pertama dengan border 2 */
+.table1 {
+    font-family: Arial, Helevatica;
+    font-size: 10px;
+    border: 2px solid black;
+    width: 100%;
+    }
+
+/* tabel kedua dengan border 1 */
+.table2 {
+        border-collapse: collapse;
+        font-family: Arial, Helevatica;
+        font-size: 10px;
+        border: 1px solid black;
+        width: 100%;
+        }
+
+/* tabel ketiga dengan border 1 */
+.table3 {
+        border-collapse: collapse;
+        font-family: Arial, Helevatica;
+        font-size: 10px;
+        border: 0;
+        width: 100%;
+        }
+
+/* tabel keempat dengan tidak ada ukuran font */
+.table4 {
+        border-collapse: collapse;
+        font-family: Arial, Helevatica;
+        border: 0;
+        width: 100%;
+        }
+
+/* Gaya batas untuk header tabel pertama */
+.table1 thead th {
+    font-weight: bold;
+    border: 0px solid black;
+    padding: 3px;
+}
+
+/* Gaya batas untuk header tabel kedua */
+.table2 thead th {
+    border-collapse: collapse;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 3px;
+    background-color: #00BFFF;
+}
+
+/* Gaya batas untuk body tabel ketiga */
+.table3 thead th {
+    border-collapse: collapse;
+    background-color: transparent;
+    padding: 3px;
+    }
+
+/* Gaya batas untuk body tabel pertama */
+.table1 tbody td {
+    background-color: transparent;
+    border: 0px solid black;
+    padding: 3px;
+}
+
+/* Gaya batas untuk body tabel kedua */
+.table2 tbody td {
+    border-collapse: collapse;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 3px;
+    }
+
+h1 {
+    text-align: center;
+    font-family: Arial;
+    font-size: 14px;
+    top: 20px;
+    }
+
+h2 {
+    text-align: left;
+    font-family: Arial;
+    font-size: 10px;
+    text-decoration: underline;
+    }
+
+h3 {
+    text-align: center;
+    font-family: Arial;
+    font-size:12px;
+    .blue {
+        color: blue;}
+    }
+
+p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23, p24, p25, p26, p27, p28, p29, p30, p31, p40 {
+    text-align: left;
+    font-family: Arial;
+    font-size:10px;
+    }
+
+p39 {
+    font-family: Arial;
+    font-size:10px;
+    }
+
+p32, p33, p34, p35, p36, p37, p38 {
+    font-family: Arial;
+    font-size: 6px;
+    }
+
+h4, h5, h6 {
+    text-align: left;
+    font-family: Arial;
+    font-size: 10px;
+    text-decoration: underline;
+    }
+
+h7, h8, h9, h10, h11, h12, h13, h14, h15 {
+    text-align: left;
+    font-family: Arial;
+    font-size: 10px;
+    }
+
+h4, h5, h6 {
+    margin: 0;
+    font-size: 12px;
+    }
+
+.container {
+            position: relative;
+            display: flex;
+            align-items: center;
+            }
+
+.circle {
+            background-color: #336699;
+            width: 25px;
+            height: 25px;
+            position :absolute;
+            border-radius: 50%;
+            top: 0px;
+            left:100%;
+            transform: translateX(-50%);
+        }
+
+.rectangle {
+            background-color: #00BFFF;
+            width: 500px;
+            height: 25px;
+            top: 0;
+            }
+
+.rectangle-1 {
+            background-color: #336699;
+            width: 100px;
+            height: 10px;
+            top: 0;
+            margin left: 0;
+            }
+
+.rectangle-2 {
+            position: absolute;
+            background-color: #00BFFF;
+            width: 100px;
+            height: 10px;
+            top: 0;
+            margin-left: 95px;
+            -webkit-transform:skew(-15deg); 
+            -moz-transform:skew(-15deg);
+            -ms-transform:skew(-15deg);
+            -0-transform:skew(-15deg); 
+            transform: skew(-15deg)
+            }
+
+.rectangle-3 {
+            position: absolute;
+            background-color: #87CEEB;
+            width: 100px;
+            height: 10px;
+            top: 0;
+            margin-left: 175px;
+            -webkit-transform:skew(-15deg); 
+            -moz-transform:skew(-15deg);
+            -ms-transform:skew(-15deg);
+            -0-transform:skew(-15deg); 
+            transform: skew(-15deg)
+            }
+
+.rectangle-4 {
+            position: absolute;
+            background-color: #FFA500;
+            width: 420px;
+            height: 10px;
+            top: 0;
+            margin-left: 255px;
+            -webkit-transform:skew(-15deg); 
+            -moz-transform:skew(-15deg);
+            -ms-transform:skew(-15deg);
+            -0-transform:skew(-15deg); 
+            transform: skew(-15deg)
+            }
+
+.circle-1 {
+            position: absolute;
+            display: inline-rectangle;
+            background-color: #00BFFF;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            left:105%;
+            top: 0px;
+            }
+
+.circle-2 {
+            position: absolute;
+            background-color: #FFA500;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            left:111%;
+            top: 0px;
+            }
+
+.circle-3 {
+            background-color: #87CEEB;
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            border-radius: 50%;
+            left:118%;
+            top: 0px;
+            }
+
+.logo {
+        max-width: 55px;
+        margin-left: 630px;
+        position: absolute;
+        top: -2px;
+        }
+
+.horizontal-line {
+        border-top: 1px solid black;
+        }
+
+.mark-cell {
+        border: none;}
+
+.hidden {
+        display: none;
+        }
+
+.no-dot {
+    list-style-type: none;
+    font-size: 10px;
+    font-family: Arial;
+  }
+
+p {
+    display: block;
+    margin: 0;
+    }
+
+</style>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        var pageCount = 1; // Jumlah halaman awal
+
+        function updatePageCount() {
+            // Menampilkan jumlah halaman di footer
+            var pageCountElement = document.getElementById('table1');
+            pageCountElement.textContent = pageCount + ' of ' + pageCount;
+        }
+
+        function addPage() {
+            // Menambah halaman baru ke konten utama
+            var mainContent = document.getElementById('main-content');
+            var newPage = document.createElement('div');
+            newPage.className = 'content-page';
+            newPage.innerHTML = '<p>Isi halaman ' + (pageCount + 1) + '.</p>';
+            mainContent.appendChild(newPage);
+
+            pageCount++; // Menambah jumlah halaman
+            updatePageCount(); // Memperbarui jumlah halaman
+        }
+        updatePageCount(); // Memperbarui jumlah halaman saat halaman dimuat
+    });
+</script>
+</head>
+<body onload='getDataFromPowerApps()'>
+    <main id='main-content'>
+        <div class='content-page'></div>
+<header>
+        <div class='rectangle'></div>
+        <div class='circle'></div>
+        <div class='circle-1'></div>
+        <div class='circle-2'></div>
+        <div class='circle-3'></div>
+        <img src='https://1.bp.blogspot.com/-4W5xJi3ONso/T18uwcUUu0I/AAAAAAAAAHA/xf8d9vVhnis/s1600/PT+SSBlogo.jpg' alt='Logo Perusahaan' class='logo'>
+        </header>
+            <h1>QUOTATION</h1>
+            <table class='table1' width=100%>
+            <col width=15%>
+            <col width=35%>
+            <col width=15%>
+            <col width=35%>
+                <tr>
+                    <th style=text-align:left;>To</th>
+                    <td style=text-align:left;>: "Costumer"</td>
+                    <th style=text-align:left;>Date</th>
+                    <td style=text-align:left;>: "Date"</td>
+                </tr>
+                <tr>
+                    <th style=text-align:left;>Attention</th>
+                    <td style=text-align:left;>: "Costumer Name"</td>
+                    <th style=text-align:left;>From</th>
+                    <td style=text-align:left;>: "Contact"</td> 
+                </tr>
+                <tr>
+                    <th style=text-align:left;>CC</th>
+                    <td style=text-align:left;>: 6</td>
+                    <th style=text-align:left;>CC</th>
+                    <td style=text-align:left;>: 1</td>
+                </tr>
+                <tr>
+                    <th style=text-align:left;>Unit No.</th>
+                    <td style=text-align:left;>: 2</td>
+                    <th style=text-align:left;>Our Ref. No.</th>
+                    <td style=text-align:left;>: 3</td>
+                </tr>
+                <tr>
+                    <th style=text-align:left;>PN./SN.</th>
+                    <td style=text-align:left;>: 5</td>
+                    <th style=text-align:left;>Material Code</th>
+                    <td style=text-align:left;>: 4</td>
+                </tr>
+                <tr>
+                    <th style=text-align:left;>Email</th>
+                    <td style=text-align:left; color=blue;>: <u><em>7</em></u></td>
+                    <th style=text-align:left;>Plant</th>
+                    <td style=text-align:left;>: 8</td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td></td>
+                    <th style=text-align:left;>Pages:</th>
+                    <td style=text-align:left;>: <p40 id='table1'></p40></td> 
+            </table>
+            <h2>SUBJECT</h2>
+            <h3>Refurbish 9</h3><p>
+                <p1>Thank you for your valued inquiry regarding to the above mentioned subject herewith we are pleased to provide our quotation with following details:</p1><p>
+            <h4><em>Scope of Work:</em></h4><p> 
+            <li class='no-dot'>"& Concat(collectData, "• " & Data1 & " " & Data2 & "<br>")&"</li>
+            <p>
+            <h5><em>Inclusions:</em></h5>
+            <div id='container'>
+                <p1 id='label1'>10</p1><p>
+                <p2 id='label2'>11</p2><p>
+                <p3 id='label3'>12</p3><p>
+                <p4 id='label4'>13</p4><p>
+                <p5 id='label5'>14</p5><p>
+            </div>
+                <script>
+                    window.addEventListener('DOMContentLoaded', function() {
+                        var container = document.getElementById('container');
+                        var labels = container.getElementsByTagName('p1', 'p2', 'p3', 'p4', 'p5');
+                        for (var i = 0; i < labels.length; i++) {
+                            var label = labels[i];
+                            var labelText = label.innerText;
+                            if (label.innerText.trim()==="") {
+                                label.classList.add('hidden');
+                            } else {
+                                label.classList.remove('hidden');
+                                container.insertBefore(label, container.firstChild);
+                            }
+                        }
+                    });
+                </script>
+            <h6><em>Exclusions:</em></h6>
+            <div id='container1'>
+                <p6 id='label6'>16</p6><p>
+                <p7 id='label7'>17</p7><p>
+                <p8 id='label8'>18</p8><p>
+                <p9 id='label9'>19</p9><p>
+                <p10 id='label10'>20</p10><p>
+                <p11 id='label11'>21</p11><p>
+                <p12 id='label12'>22</p12><p>
+                <p13 id='label13'>23</p13><p>
+            </div>
+                <script>
+                    window.addEventListener('DOMContentLoaded', function() {
+                        var container = document.getElementById('container1');
+                        var labels = container.getElementsByTagName('p6', 'p7', 'p8', 'p9', 'p10', 'p11', 'p12', 'p13');
+    
+                        for (var i = 0; i < labels.length; i++) {
+                            var label = labels[i];
+                            var labelText = label.innerText;
+                            if (label.innerText.trim()==="") {
+                                label.classList.add('hidden');
+                            } else {
+                                label.classList.remove('hidden');
+                                container.insertBefore(label, container.firstChild);
+                            }
+                        }
+                    });
+                </script>
+        
+            <b><h8>TIMELINE SCHEDULE</h8></b><p>
+                <p14>Time of completion estimate for <b><u>hari working days</u></b> after received the purchase order</p14>
+            <p>
+            <b><h9>PRICE</h9></b><p>
+            <table class='table2' width=100%>
+            <col width=30%>
+            <col width=6%>
+            <col width=6%>
+            <col width=8%>
+            <col width=25%>
+            <col width=25%>
+                <thead>
+                    <tr>
+                        <th style=text-align:center;>
+                            DESCRIPTION
+                            </th>
+                        <th style=text-align:center;>
+                            QTY
+                            </th>
+                        <th style=text-align:center;>
+                            Unit
+                            </th>
+                        <th style=text-align:center;>
+                            Material
+                            </th>
+                        <th style=text-align:center;>
+                            Labour
+                            </th>
+                        <th style=text-align:center;>
+                            TOTAL PRICE (IDR)
+                            </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+   		                <td style=text-align:center; rowspan=2; colspan=1;>Refurbish 25</td>
+                        <td style=text-align:center; rowspan=2; colspan=1;>1</td>
+                        <td style=text-align:center; rowspan=2; colspan=1;>Ls</td>
+                        <td style=text-align:center; rowspan=1; colspan=1;>26</td>
+                        <td style=text-align:center; rowspan=1; colspan=1;>27</td>
+                        <td style=text-align:center; rowspan=1; colspan=1;>28</td>
+                    </tr>
+                    <tr>
+                        <td style=text-align:center; rowspan=1; colspan=2;><b>TOTAL BEFORE TAX</b></td>
+                        <td style=text-align:center; rowspan=1;>29</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>
+
+            <b><h10>VALIDITY</h10></b><p>
+                <p15>The quoted price is valid for a period of 30 days from the date of this proposal</p15><p>
+
+            <b><h11>TAXES & DUTIES</h11></b><p>
+                <p16>All pricing <b><u>is inclusive</u></b> of Value Added Tax, currently 11%</p16><p>
+
+            <b><h12>TERMS OF PAYMENT</h12></b><p>
+                <p17>We would propose payment terms of 30 days after receipt of our invoice</p17><p>
+
+            <b><h13>VARIATIONS</h13></b><p>
+                <p18>Changes in scope of work after order acceptance will be reviewed and the cost and scheduling implications agreed before confirmation of the variation</p18><p>
+    
+            <b><h14>MECHANICAL WARRANTY</h14></b><p>
+                <p19>Standard warranty condition applied for 3 month/1500 hours, whichever come first</p19><p>
+
+            <b><h15>WELDING PROCEDURE & WELDER QUALIFICATION</h15></b><p>
+                <p20>PT. Sanggar Sarana Baja has qualification certificates which certified its welders to BNSP</p20><p>
+                <p21>It is the basis of our price that no re-qualification of welders and/or welding procedures will be required</p21><p>
+
+                <p22>We trust the above meets your approval. Look forward to having your confirmation to undertake the work</p22><p>
+                <p23>Should you have any queries please do not hesitate to contact the undersigned. We look forward to your further instructions</p23><p>
+    
+            <div class='horizontal-line'></div><p>
+
+            <p>
+            <table class='table3'>
+            <col width=60%>
+            <col width=50%>
+                <tr>
+                    <td style=text-align:left; class='mark-cell'>
+                        <b><p24>SINCERELY YOURS,</p24></b><p>
+                        <b><p25>PT SANGGAR SARANA BAJA</p25></b><p><br><br>
+                        
+                        <b><p26>SIGNATURE : _______________</p26></b><p>
+                        <b><p27>NAME : ____________________</p27></b>
+                    </td>
+                    <td style=text-align:left; class='mark-cell'>
+                        <b><p28>CUSTOMER ACCEPTANCE,</p28></b><p><br><br>
+                        
+                        <b><p29>SIGNATURE : ________________</p29></b><p>
+                        <b><p30>NAME : _____________________</p30></b><p>
+                        <b><p31>DATE : _____________________</p31></b>
+                    </td>
+                </tr>
+            </table>
+            <br>
+     
+    </main>
+<footer>
+    <div class='container'>
+        <div class='rectangle-1'></div>
+        <div class='rectangle-2'></div>
+        <div class='rectangle-3'></div>
+        <div class='rectangle-4'></div>
+    </div>
+
+    <table class='table4' width=100%>
+        <col width=75%>
+        <col width=20%>
+        <col width=25%>
+            <tr>
+                <td style=text-align:left; class='mark-cell'>
+                    <b><p32>PT Sanggar Sarana Baja</p32></b><p33>-Gedung TMT I, 5th Floor Suite 501,</p33><p>
+                    <p34>Jl. Cilandak KKO No. 1, Jakarta 12560, Indonesia</p34><p>
+                    <b><p35>P :</p35></b><p36> +61 21 2997 6830,</p36><b><p37> F :</p37></b><p38> +62 21 2997 6835</p38>
+                </td>
+                <td style=text-align:center; class='mark-cell'>
+                    <b><em><p39>www.ptssb.co.id</p39></em></b>
+                </td>
+            </tr>
+    </table>
+</footer>
+</body>
+</html>

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quotation</title>
+<style>
+@media print {
+    @page {
+        size: A4 portrait;
+        margin: 10mm;
+    }
+    
+    main {
+        margin-top: 15mm;
+        margin-bottom: 15mm;
+    }
+}
+header {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0px;
+        text-align: left;
+    }
+    footer {
+        display: block; 
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
+.page-break-after {
+    page-break-after: always;
+}
+.bordered-table {
+  font-family: Arial, Helevatica;
+  border: 1px solid black;
+  width: 100%;
+}
+.bordered-table th {
+  border: 0px solid black;
+  text-align: left;
+  padding: 2px;
+  font-size: 12px;
+}
+
+.bordered-table {
+  border-collapse: collapse; /* This property ensures no spacing between cells */
+}
+
+.bordered-table tr:first-child th {
+  border-top: 1px solid black; /* Apply solid black border to the top of the first row */
+}
+
+.bordered-table tr:last-child th {
+  border-bottom: 1px solid black; /* Apply solid black border to the bottom of the last row */
+}
+
+.bordered-table tr th:first-child {
+  border-left: 1px solid black; /* Apply solid black border to the left of each row's first cell */
+}
+.bordered-table tr th:last-child {
+  border-right: 1px solid black; /* Apply solid black border to the right of each row's last cell */
+}
+.table2 {
+        border-collapse: collapse;
+        font-family: Arial, Helevatica;
+        font-size: 9px;
+        border: 1px solid black;
+        width: 100%;
+        }
+.table2 thead th {
+    border-collapse: collapse;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 3px;
+    background-color: #00BFFF;
+}
+.table2 tbody td {
+    border-collapse: collapse;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 3px;
+    }
+.table-format1 {
+    font-family: Arial, Helevatica;
+    border: 0px solid black;
+    width: 100%;
+    border-spacing: 0;
+  }
+
+  .table-format1 th {
+    border: 0px solid black;
+    text-align: left;
+    padding: 2px;
+    font-size: 12px;
+    text-decoration: underline;
+  }
+  .table-format1 tr {
+    border: 0px solid black;
+    text-align: left;
+    padding: 2px;
+    font-size: 12px;
+    text-decoration: underline;
+  }
+.table-format2 {
+    font-family: Arial, Helevatica;
+    border: 0px solid black;
+    width: 100%;
+    border-spacing: 0;
+  }
+  .table-format2 th {
+    border: 0px solid black;
+    border-spacing: 0;
+    text-align: left;
+    padding: 0px;
+    font-size: 11px;
+    text-decoration: underline;
+    font-style: italic;
+  }
+  .table-format2 tr {
+    font-family: Arial, Helevatica;
+    border: 0px solid black;
+    border-spacing: 0;
+    text-align: left;
+    padding: 2px;
+    font-size: 10px;
+    font-weight: normal;
+  }
+  .table-format2 td {
+    border: 0px solid black;
+    border-spacing: 0;
+    text-align: left;
+    padding: 0px;
+    font-size: 9px;
+    font-weight: normal;
+  }
+.table3 {
+        border-collapse: collapse;
+        font-family: Arial, Helevatica;
+        font-size: 10px;
+        border: 0;
+        width: 100%;
+        }
+.table3 thead th {
+    border-collapse: collapse;
+    background-color: transparent;
+    padding: 3px;
+    }
+.image-max-width {
+    max-width: 100vw;
+    height: auto;
+  }
+h1 {
+    font-family: Arial, Helevatica;
+    font-size: 11px;
+    font-weight: bold;
+    }
+h2 {
+    font-family: Arial, Helevatica;
+    font-size: 9px;
+    font-weight: bold;
+    }
+h3 {
+    font-family: Arial, Helevatica;
+    font-size: 11px;
+    font-weight: bold;
+    color: blue;
+    }
+p {
+    display: block;
+    margin: 0;
+    font-family:Arial, Helevatica;
+    font-size: 9px;
+    font-weight: normal;
+    }
+p2 {
+    display: block;
+    margin: 0;
+    font-family: Arial, Helevatica;
+    font-size: 9px;
+    font-weight: normal;
+    }
+.horizontal-line {
+        border-top: 1px solid black;
+        }
+</style>
+</head>
+<body>
+<header>
+<img src="https://i.ibb.co/71VPwBS/header.png" alt="Header Image">
+</header>
+<p>
+<main>
+<center>
+    <h1 >QUOTATION</h1>
+</center>   
+<center>
+    <table class="bordered-table">
+        <tr>
+            <th style="width: 20%">TO</th>
+            <th style="width: 40%">: Costumer Contact</th>
+            <th style="width: 20%" class="date-cell">Date</th>
+            <th style="width: 50%">: 202020</th>
+        </tr>
+        <tr>
+            <th>ATTENTION</th>
+            <th>: Costumer Name</th>
+            <th>Page</th>
+            <th>: 1 of 1</th>
+        </tr>
+        <tr>
+            <th>CC</th>
+            <th>: -</th>
+            <th>From</th>
+            <th>: Sender</th>
+        </tr>
+        <tr>
+            <th>UNIT NO/CUST.REF</th>
+            <th>: no</th>
+            <th>CC</th>
+            <th>: </th>
+        </tr>
+        <tr><th>PN./SN</th>
+            <th>: </th>
+            <th>OUR REF. NO.</th>
+            <th>:</th>
+        </tr>
+        <tr>
+            <th>EMAIL</th>
+            <th>: </th>
+            <th>MATERIAL CODE</th>
+            <th>: -</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th>Plant</th>
+            <th>:</th>
+        </tr>
+    </table>
+</center>
+<center>
+<table class="table-format1">
+    <tr><th>SUBJECT</th></tr>
+</table>
+</center>
+<center>
+    <h3>REPAIR</h3>
+</center>
+<center>
+<table class="table-format2">
+    <tr><td>Thank you for your valued inquiry regarding to the above mentioned subject herewith we are pleased to provide our quotation with
+        following details:</td>
+    </tr>
+    <tr>
+        <th>Scope of Work:</th>
+    </tr>
+    <tr>
+        <td>
+            <ul>
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>List 1</li>
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>List 1</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>Inclusions:</th>
+    </tr>
+    <tr>
+        <td>
+            <ul>
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>List 1</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>Exclusions:</th>
+    </tr>
+    <tr>
+        <td>
+            <ul>
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>List 1</li>
+                <li>List 2</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+</center>
+<b><h1>TIMELINE SCHEDULE</h1></b><p>
+                <p>Time of completion estimate for <b><u>0 working days</u></b> after received the purchase order</p>
+            <p>
+<h1><b>PRICE</b></h1>
+            <table class='table2' width=100%>
+            <col width=30%>
+            <col width=6%>
+            <col width=6%>
+            <col width=8%>
+            <col width=25%>
+            <col width=25%>
+                <thead>
+                    <tr>
+                        <th style=text-align:center;>
+                            DESCRIPTION
+                            </th>
+                        <th style=text-align:center;>
+                            QTY
+                            </th>
+                        <th style=text-align:center;>
+                            Unit
+                            </th>
+                        <th style=text-align:center;>
+                            Material
+                            </th>
+                        <th style=text-align:center;>
+                            Labour
+                            </th>
+                        <th style=text-align:center;>
+                            TOTAL PRICE (IDR)
+                            </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+   		                <td style=text-align:center; rowspan=2; colspan=1;>Refurbish 25</td>
+                        <td style=text-align:center; rowspan=2; colspan=1;>1</td>
+                        <td style=text-align:center; rowspan=2; colspan=1;>Ls</td>
+                        <td style=text-align:center; rowspan=1; colspan=1;>26</td>
+                        <td style=text-align:center; rowspan=1; colspan=1;>27</td>
+                        <td style=text-align:center; rowspan=1; colspan=1;>28</td>
+                    </tr>
+                    <tr>
+                        <td style=text-align:center; rowspan=1; colspan=2;><b>TOTAL BEFORE TAX</b></td>
+                        <td style=text-align:center; rowspan=1;>29</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>
+
+<h1><b>VALIDITY</b></h1>
+<p> The quoted price is valid for a period of 30 days from the date of this proposal</p>
+<h1>TAXES & DUTIES</h1>
+<p>
+All pricing <b><u>is inclusive</u></b> of Value Added Tax, currently 11%
+</p>
+<h1><b>TERMS OF PAYMENT</b></h1>
+<p>We would propose payment terms of 30 days after receipt of our invoice</p>
+<h1><b>VARIATIONS</b></h1>
+<p>Changes in scope of work after order acceptance will be reviewed and the cost and scheduling implications agreed before confirmation of the variation</p>
+<h1><b>MECHANICAL WARRANTY</b></h1>
+<p>Standard warranty condition applied for 3 month/1500 hours, whichever come first</p>
+<h1><b>WELDING PROCEDURE & WELDER QUALIFICATION</b></h1>
+<p>PT. Sanggar Sarana Baja has qualification certificates which certified its welders to BNSP
+It is the basis of our price that no re-qualification of welders and/or welding procedures will be required
+<p>We trust the above meets your approval. Look forward to having your confirmation to undertake the work Should you have any queries please do not hesitate to contact the undersigned. We look forward to your further instructions</p>
+
+<div class='horizontal-line'></div><p>
+<table class='table3'>
+            <col width=60%>
+            <col width=50%>
+                <tr>
+                    <td style=text-align:left; class='mark-cell'>
+                        <b><p24>SINCERELY YOURS,</p24></b><p>
+                        <b><p25>PT SANGGAR SARANA BAJA</p25></b><p><br><br>
+                        
+                        <b><p26>SIGNATURE : _______________</p26></b><p>
+                        <b><p27>NAME : ____________________</p27></b>
+                    </td>
+                    <td style=text-align:left; class='mark-cell'>
+                        <b><p28>CUSTOMER ACCEPTANCE,</p28></b><p><br><br>
+                        
+                        <b><p29>SIGNATURE : ________________</p29></b><p>
+                        <b><p30>NAME : _____________________</p30></b><p>
+                        <b><p31>DATE : _____________________</p31></b>
+                    </td>
+                </tr>
+</table>
+</main>
+<footer>
+    <img src="https://i.ibb.co/VNLfM57/footer2.png" alt="Footer Image">
+</footer>
+</body>
+</html>

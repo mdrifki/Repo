@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pre-Inspection Report</title>
+<style>
+@page
+    {
+    size: A4 Potrait;
+    margin: 0;
+    }
+
+@media print{
+    @page{
+        size: A4 Potrait;
+        margin: 0;
+    }
+}
+
+@media print{
+    .class-name{
+        @page{
+            size: A4 Potrait;
+            margin: 0;
+        }
+    }
+}
+table {
+  font-family: sans-serif;
+  border:0px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th{
+  border:1px solid black;
+  text-align: center;
+  padding: 1px;
+  font-size: 12px;
+}
+.center {
+        text-align: center;
+    }
+table, td{
+  border:1px solid black;
+  text-align: left;
+  padding: 2px;
+  font-size: 12px;
+}
+header img, footer img {
+    max-width: 120px;
+    height: auto;
+}
+table, td2{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+    .full-width-table {
+      width: 100%;
+    }
+    .half-width-cell {
+      width: 50%;
+    }
+.page-break-after {
+        page-break-after: always;
+    }
+tr:nth-child(even)
+</style>
+</head>
+
+<body> 
+<p></p>
+<div class="center">
+<header>
+        <table style="width:100%">
+            <tr>
+                <td style="width:15%">
+                    <img src="https://absensi.ptssb.co.id/static/media/logo_ssb.77324bc7.png" alt="PTSSB Logo" width="120">
+                </td>
+                <td style="width:80%; text-align: center;font-size: 20px;">PRE-INSPECTION REPORT</td>
+                <td style="width:20%">
+                    <img src="https://i.ibb.co/vQXqMnY/blank.png" alt="blank" width="120"></td>
+            </tr>
+        </table>
+</header>
+</div>
+<div class="center">
+    <table>
+        <tbody>
+            <tr>
+                <td style="width:20%">Report No</td>
+                <td style="width:30%">:</td>
+                <td style="width:20%">Costumer</td>
+                <td style="width:30%">:</td>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td>:</td>
+                <td>Costumer Location</td>
+                <td>: </td>
+            </tr>
+            <tr>
+                <td>Inspection Method</td>
+                <td>:</td>
+                <td>Model</td>
+                <td>:</td>
+            </tr>
+             <tr>
+                <td>SSB Plant </td>
+                <td>:</td>
+                <td>Unit No </td>
+                <td>:</td>
+            </tr>
+            <tr>
+                <td>Responsibility </td>
+                <td>:QC Departement</td>
+                <td>Part Name</td>
+                <td>:</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr style="height:2px;border-width:0;color:black;background-color:gray">
+</div>
+<div class="center">
+    <table>
+        <tbody>
+            <tr>
+                <th style="width:5%">NoOps.</th>
+                <th style="width:25%">Description</th>
+                <th style="width:15%">Condition</th>
+                <th style="width:15%">Dimension</th>
+                <th style="width:25%">Scope Of Work</th>
+                <th style="width:10%">Remark</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p></p>
+<div class="page-break-after"></div>
+<div class="center">
+<header>
+        <table>
+            <tr>
+                <td style="width:15%">
+                    <img src="https://absensi.ptssb.co.id/static/media/logo_ssb.77324bc7.png" alt="PTSSB Logo" width="120">
+                </td>
+               <td style="width:80%; text-align: center;font-size: 20px;">PRE-INSPECTION REPORT</td>
+                <td style="width:20%">
+                    <img src="https://i.ibb.co/vQXqMnY/blank.png" alt="blank" width="120"></td>
+            </tr>
+        </table>
+</header>
+</div>
+<div class="center">
+    <table>
+        <tbody>
+            <tr>
+                <td style="width:20%">Report No</td>
+                <td style="width:30%">:</td>
+                <td style="width:20%">Costumer</td>
+                <td style="width:30%">:</td>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td>:</td>
+                <td>Costumer Location</td>
+                <td>: </td>
+            </tr>
+            <tr>
+                <td>Inspection Method</td>
+                <td>:</td>
+                <td>Model</td>
+                <td>:</td>
+            </tr>
+             <tr>
+                <td>SSB Plant </td>
+                <td>:</td>
+                <td>Unit No </td>
+                <td>:</td>
+            </tr>
+            <tr>
+                <td>Responsibility </td>
+                <td>:QC Departement</td>
+                <td>Part Name</td>
+                <td>:</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr style="height:2px;border-width:0;color:black;background-color:gray">
+</div>
+<div class="center">
+    <table>
+        <tbody>
+            <tr>
+                <th style="width:100%">Documentation</th>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+  <tbody>
+    <tr>
+      <td style="width:10%"> Gambar1 </td>
+      <td></td>
+      <td style="width:10%"> Gambar2 </td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</body>
+</html>

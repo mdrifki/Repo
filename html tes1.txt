@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	<title>Convert Power Apps to PDF</title>
+<style>
+@page
+    {
+    size: A4 Potrait;
+    margin: 0;
+    }
+
+@media print{
+    @page{
+        size: A4 Potrait;
+        margin: 0;
+    }
+}
+
+@media print{
+    .class-name{
+        @page{
+            size: A4 Potrait;
+            margin: 0;
+        }
+    }
+}
+table {
+  font-family: sans-serif;
+  border:0px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th{
+  border:1px solid black;
+  text-align: center;
+  padding: 1px;
+}
+
+table, td{
+  border:1px solid black;
+  text-align: left;
+  padding: 2px;
+}
+.page-break-after {
+        page-break-after: always;
+    }
+tr:nth-child(even)
+
+</style>
+
+</head>
+<body> 
+<p></p>
+<center>
+<header>
+    <h2h>
+        <table>
+            <style>
+                "width:100%"
+            </style>
+            <tr>
+                <td style="width:15%">
+                    <img src="https://absensi.ptssb.co.id/static/media/logo_ssb.77324bc7.png" width="120">
+                </td>
+                <td style="width:80%">
+                    <center>
+                        <h1 style="font-size: 20px;">PRE-INSPECTION REPORT</h1>
+                    </center>
+                </td>
+                <td style="width:20%">
+                    <img src="https://i.ibb.co/vQXqMnY/blank.png" width="120"></td>
+            </tr>
+        </table>
+    </h2h>
+</header>
+</center>
+<center>
+    <table>
+        <style>
+         td {
+        font-size: 12px;
+        }
+        </style>
+        <tbody>
+            <tr>
+                <td style="width:20%">Report No</td>
+                <td style="width:30%">:&nbsp;&nbsp;</td>
+                <td style="width:20%">Costumer</td>
+                <td style="width:30%">:&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td>:&nbsp;&nbsp;</td>
+                <td>Costumer Location</td>
+                <td>:&nbsp;&nbsp; </td>
+            </tr>
+            <tr>
+                <td>Inspection Method</td>
+                <td>:&nbsp;&nbsp;</td>
+                <td>Model</td>
+                <td>:&nbsp;&nbsp;</td>
+            </tr>
+             <tr>
+                <td>SSB Plant </td>
+                <td>:&nbsp;&nbsp:</td>
+                <td>Unit No </td>
+                <td>:&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Responsibility </td>
+                <td>:&nbsp;&nbsp;QC Departement</td>
+                <td>Part Name</td>
+                <td>:&nbsp;&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr style="height:2px;border-width:0;color:black;background-color:gray">
+</center>
+<center>
+    <table>
+        <style>
+         th {
+        font-size: 12px;
+        }
+        </style>
+        <tbody>
+            <tr>
+                <th style="width:5%">NoOps.</th>
+                <th style="width:25%">Description</th>
+                <th style="width:15%">Condition</th>
+                <th style="width:15%">Dimension</th>
+                <th style="width:25%">Scope Of Work</th>
+                <th style="width:10%">Remark</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</center>
+<p></p>
+<div class="page-break-after"></div>
+<center>
+<header>
+    <h2h>
+        <table>
+            <style>
+                "width:100%"
+            </style>
+            <tr>
+                <td style="width:15%">
+                    <img src="https://absensi.ptssb.co.id/static/media/logo_ssb.77324bc7.png" width="120">
+                </td>
+                <td style="width:80%">
+                    <center>
+                        <h1 style="font-size: 20px;">PRE-INSPECTION REPORT</h1>
+                    </center>
+                </td>
+                <td style="width:20%">
+                    <img src="https://i.ibb.co/vQXqMnY/blank.png" width="120"></td>
+            </tr>
+        </table>
+    </h2h>
+</header>
+</center>
+<center>
+    <table>
+        <style>
+         td {
+        font-size: 12px;
+        }
+        </style>
+        <tbody>
+            <tr>
+                <td style="width:20%">Report No</td>
+                <td style="width:30%">:&nbsp;&nbsp;</td>
+                <td style="width:20%">Costumer</td>
+                <td style="width:30%">:&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td>:&nbsp;&nbsp;</td>
+                <td>Costumer Location</td>
+                <td>:&nbsp;&nbsp; </td>
+            </tr>
+            <tr>
+                <td>Inspection Method</td>
+                <td>:&nbsp;&nbsp;</td>
+                <td>Model</td>
+                <td>:&nbsp;&nbsp;</td>
+            </tr>
+             <tr>
+                <td>SSB Plant </td>
+                <td>:&nbsp;&nbsp;</td>
+                <td>Unit No </td>
+                <td>:&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Responsibility </td>
+                <td>:&nbsp;&nbsp;QC Departement</td>
+                <td>Part Name</td>
+                <td>:&nbsp;&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr style="height:2px;border-width:0;color:black;background-color:gray">
+</center>
+<center>
+    <table>
+        <style>
+         th {
+        font-size: 12px;
+        "width:100%"
+        }
+        </style>
+        <tbody>
+            <tr>
+                <th style="width:100%">Documentation</th>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+  <style>
+    /* Add a class to the table to define its width */
+    .full-width-table {
+      width: 100%;
+    }
+
+    /* Add a class to the cells to define their width */
+    .half-width-cell {
+      width: 50%;
+    }
+  </style>
+  <tbody>
+    <tr>
+      <td style="width:10%"> Gambar1 </td>
+      <td></td>
+      <td style="width:10%"> Gambar2 </td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</center>
