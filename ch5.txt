@@ -1,0 +1,31 @@
+<html>
+<head></head>
+<body>
+<P style='text-align: center; font-size:30px'>E.Pengetahuan Pengelasan Dasar</P>
+<P style='text-align: Left; font-size:20px'>Welding Position berdasarkan Code AWS, ASME, dan ISO</P>
+<p style='text-align: center;'>
+  <img src='https://1.bp.blogspot.com/-aqORMIQnAPg/U3JHwZMOi9I/AAAAAAAAA-Q/qKibG87QvXA/s1600/Position.jpg' alt='welding position' style='max-width:auto; max-height:400px;'>
+</p>
+<p style='text-align: Left; font-size:20px;'>Welding Symbol sesuai standar AWS/ANSI</p>
+<p style='text-align: center;'>
+      <img src='https://i.ibb.co/4mDBMrP/3-21-orig.jpg' alt='welding symbol' style='max-width:auto; max-height:300px;'>
+</p>
+<p style='text-align: center;'>
+      <img src='https://i.ibb.co/9b1YrDp/3-22-orig.jpg' alt='welding symbol' style='max-width:auto; max-height:450px;'>
+</p>
+<p style='text-align: Left; font-size:20px;'>Membaca spesifikasi kawat las GMAW</p>
+<p style='text-align: center;'>
+    <img src='https://www.pengelasan.net/wp-content/uploads/2018/05/Spesifikasi-Kode-Filler-Metal-GMAW-1.jpg' alt='membaca kawat las' style='max-width:auto; max-height:300px'>
+</p>
+<p style='text-align: Left; font-size:20px;'>Membaca spesifikasi kawat las FCAW</p>
+<p style='text-align: center;'>
+    <img src='https://pramana2017.files.wordpress.com/2018/06/arti-kode-filler-metal-fcaw.jpg?w=820' alt='membaca kawat las' style='max-width:auto; max-height:400px'>
+</p>
+<p style='text-align: Left; font-size:20px;'>Membaca spesifikasi elektroda stick SMAW</p>
+<p style='text-align: center'>
+    <img src='https://www.pengelasan.net/wp-content/uploads/2018/05/Kode-Elektroda.jpg' alt='SMAW' style='max-width:auto; max-height:300px;'>
+    <img src='https://cdn.thefabricator.com/a/out-of-position-welding-1521118226.jpg' alt='smaw2' style='max-width:auto; max-height:300px'>
+</p>
+<p>ss</p>
+</body>
+</html>

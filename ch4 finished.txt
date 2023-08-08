@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<h2 style='text-align: center;'>D. Identifikasi Material</h2>
+
+<p>Berikut adalah pengetahuan mengenai identifikasi spesifikasi material yang sering digunakan oleh SSB</p>
+<table border='1' style='width:100%; border-collapse: collapse;'>
+  <tr>
+    <th>No</th>
+    <th>Material</th>
+    <th>Strength</th>
+  </tr>
+  <tr>
+    <td  rowspan="2">1</td>
+    <td> SS400</td>
+    <td>
+      <ul>
+        <li>Yield Strength:</li>
+        <ul>
+          <li>Thickness ≤ 16mm: 245 Mpa</li>
+          <li>16 mm &lt; Thickness ≤ 40 mm: 235 Mpa</li>
+          <li>40 mm &lt; Thickness ≤ 100 mm: 215 Mpa</li>
+          <li>Thickness > 100mm: 205 Mpa</li>
+        </ul>
+        <li>Tensile Strength: 400-510 Mpa</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="path_to_your_image_1.jpg" alt="Material Image" style="display: block; margin-left: auto; margin-right: auto; width: 40%;" width="100">
+  </tr>
+  <tr>
+    <td  rowspan="2">2</td>
+    <td>A36</td>
+    <td>
+      <ul>
+        <li>Minimum Yield Strength: 250 Mpa</li>
+        <li>Tensile Strength: 400-550 Mpa</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="path_to_your_image_1.jpg" alt="Material Image" style="display: block; margin-left: auto; margin-right: auto; width: 40%;" width="100">
+  </tr>
+  <tr>
+    <td  rowspan="2">3</td>
+    <td>ASTM A572 grade 42</td>
+    <td>
+      <ul>
+        <li>Minimum Yield Strength: 290 Mpa</li>
+        <li>Minimum Tensile Strength: 415 Mpa</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="path_to_your_image_1.jpg" alt="Material Image" style="display: block; margin-left: auto; margin-right: auto; width: 40%;" width="100">
+  </tr>
+  <tr>
+    <td  rowspan="2">4</td>
+    <td>ASTM A572 grade 50</td>
+    <td>
+      <ul>
+        <li>Minimum Yield Strength: 345 Mpa</li>
+        <li>Minimum Tensile Strength: 450 Mpa</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="path_to_your_image_1.jpg" alt="Material Image" style="display: block; margin-left: auto; margin-right: auto; width: 40%;" width="100">
+  </tr>
+  <tr>
+    <td  rowspan="2">5</td>
+    <td>High Tensile Strength Steel (Bis80)</td>
+    <td>
+      <ul>
+        <li>Minimum Yield Strength: 690 Mpa</li>
+        <li>Tensile Strength: 790 – 930 Mpa</li>
+        <li>Minimum Charpy Impact: 40 Joule</li>
+        <li>Hardness: 255HB</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="path_to_your_image_1.jpg" alt="Material Image" style="display: block; margin-left: auto; margin-right: auto; width: 40%;" width="100">
+  </tr>
+  <tr>
+    <td  rowspan="2">6</td>
+   <td>Wear Plate (Bis400)</td>
+    <td>
+      <ul>
+        <li>Hardness: 370 – 430HB</li>
+        <li>Minimum Charpy Impact (Longitudinal): 55 Joule</li>
+        <li>Minimum Yield Strength: 1070 Mpa</li>
+        <li>Tensile Strength: 1320 Mpa</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="path_to_your_image_1.jpg" alt="Material Image" style="display: block; margin-left: auto; margin-right: auto; width: 40%;" width="100">
+  </tr>
+  <tr>
+    <td  rowspan="2">7</td>
+     <td>Pipe</td>
+    <td>
+      <ul>
+        <li>Material type: Carbon Steel, Stainless Steel, Aluminium, dll</li>
+        <li>Diameter: Ukuran diameter pipa</li>
+        <li>Schedule: Ukuran ketebalan pipa</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="path_to_your_image_1.jpg" alt="Material Image" style="display: block; margin-left: auto; margin-right: auto; width: 40%;" width="100">
+  </tr>
+  <tr>
+    <td  rowspan="2">8</td>
+    <td>Tube</td>
+    <td>
+      <ul>
+        <li>Material type: Carbon Steel, Stainless Steel, Titanium Steel, dll</li>
+        <li>Diameter: Ukuran diameter tube</li>
+        <li>BWG: Ukuran ketebalan tube</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="path_to_your_image_1.jpg" alt="Material Image" style="display: block; margin-left: auto; margin-right: auto; width: 40%;" width="100">
+  </tr>
+</table>
+</body>
+</html>

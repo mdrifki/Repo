@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h2 style='text-align: center;'>C. Alat Penunjang Standar Untuk Welder</h2>
+<table border='1' style='width:100%; border-collapse: collapse;text-align: center;'>
+  <tr>
+    <th>No</th>
+    <th>Description</th>
+    <th>Qty</th>
+    <th>UOM</th>
+    <th>Images</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Toolbox Extra Heavy W/Tray 20'</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://www.stanleytools.com/NAG/PRODUCT/IMAGES/HIRES/020300R/020300R_1.jpg?resize=530x530' alt='Gambar1' style='max-width: 100%; max-height: 100px;'></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Padlock</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://m.media-amazon.com/images/I/613c7GjaLzL.__AC_SX300_SY300_QL70_FMwebp_.jpg' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Pliers Combination 200mm</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://5.imimg.com/data5/SELLER/Default/2022/4/FK/JW/XJ/1767808/yato-cutting-plier-500x500.jpg' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Wrench Adjustable Chrome 200mm</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://upload.wikimedia.org/wikipedia/commons/9/98/Chrome_Vanadium_Adjustable_Wrench.jpg' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr><tr>
+    <td>5</td>
+    <td>Plier Diag Cutter</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://gordonshardware.co.za/cdn/shop/products/PlierDiagCutter200MMMTS588328MTS3830_e86167c7-78f4-4a18-a402-b69c63104dc8_540x.jpg?v=1594986389' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr><tr>
+    <td>6</td>
+    <td>Punch Centre Round Head 125x6.5mm</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://www.stanleytools.com.hr/EMEA/PRODUCT/IMAGES/HIRES/0-58-120/0-58-120_1.jpg?resize=530x530' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr><tr>
+    <td>7</td>
+    <td>Plier Locking Straight Jaw 250mm</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://m.media-amazon.com/images/I/71MjutHz8PL.__AC_SY300_SX300_QL70_ML2_.jpg' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr><tr>
+    <td>8</td>
+    <td>Square Steel Ruler 30 Cm</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://m.media-amazon.com/images/I/61aShtZvj+L._AC_SL1500_.jpg' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr><tr>
+    <td>9</td>
+    <td>Dividers Spring Q/A Nut No.53 200mm</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://www.oliverswoodturning.co.uk/wp-content/uploads/2022/10/FAIDIV8-Spring-Divider.jpg' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr><tr>
+    <td>10</td>
+    <td>Screwdriver Flat 150x8mm</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://cdn11.bigcommerce.com/s-qo6zk/images/stencil/original/products/8427/18439/0-65-188__89652.1573094855.jpg?c=2' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr><tr>
+    <td>11</td>
+    <td>Screwdriver Phillips 150x5mm#2</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://res.cloudinary.com/rsc/image/upload/w_1024/Y1829693-02.webp' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr><tr>
+    <td>12</td>
+    <td>Level Spirit Box 40cm</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://m.media-amazon.com/images/I/51yBIjkLb1L._AC_SX679_.jpg' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr><tr>
+    <td>13</td>
+    <td>Brush Hand Steel 4 Row Wood Handle</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://www.beorol.com/files/thumbs/files/watermark/files/images/slike_proizvoda/thumbs_w/thumbs_800/CC5_w_800_800px.jpg.webp' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr><tr>
+    <td>14</td>
+    <td>Rule Steel 300 300mm</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://www.geo-con.com.au/wp-content/uploads/2019/04/a1-82.jpg' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr><tr>
+    <td>15</td>
+    <td>Hammer Chipping Spring Handle</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://www.ots.com.sg//image/cache/catalog/home/Hand%20Tools/612612.S%20500g%20Chipping%20Hammer-360x360.png' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr><tr>
+    <td>16</td>
+    <td>Cleaners Tip Set</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://m.media-amazon.com/images/I/61ONkGxLH8L.__AC_SX300_SY300_QL70_FMwebp_.jpg' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr><tr>
+    <td>17</td>
+    <td>Gun Flint Gas Lighter</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://haron.com.au/wp-content/uploads/2021/09/Rock.jpg' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr><tr>
+    <td>18</td>
+    <td>Hammer Ball Pein</td>
+    <td>1</td>
+    <td>SET</td>
+    <td style='text-align: center;'><img src='https://www.redboxtools.com/wp-content/uploads/2021/06/detail-14337.jpg' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr><tr>
+    <td>19</td>
+    <td>Wrench Set Hex 9 Piece (Inch)</td>
+    <td>1</td>
+    <td>SET</td>
+    <td style='text-align: center;'><img src='https://m.media-amazon.com/images/I/61R916W2rsL._AC_SL1001_.jpg' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr><tr>
+    <td>20</td>
+    <td>Wrench Set 9 Piece (Metric)</td>
+    <td>2</td>
+    <td>SET</td>
+    <td style='text-align: center;'><img src='https://www.powerbuilt.com/cdn/shop/products/640082-01_800x.jpg?v=1654684410' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr><tr>
+    <td>21</td>
+    <td>Tape Measuring Powerlock</td>
+    <td>1</td>
+    <td>EA</td>
+    <td style='text-align: center;'><img src='https://cpc.farnell.com/productimages/standard/en_GB/TL08135-40.jpg' alt='Gambar1' style='max-width: 100%; max-height: 100px;' ></td>
+  </tr>
+</table>
+
+</body>
+</html>
